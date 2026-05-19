@@ -31,7 +31,7 @@ export class EmaliaApi implements ICredentialType {
     type: 'generic',
     properties: {
       headers: {
-        'x-api-key': '={{$credentials.apiKey}}',
+        'Authorization': '=Bearer {{$credentials.apiKey}}',
       },
     },
   };
