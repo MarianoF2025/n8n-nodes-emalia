@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-emalia",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "n8n community node for Emalia — email marketing platform",
   "keywords": [
     "n8n-community-node-package",
@@ -36,7 +36,8 @@
       "dist/credentials/EmaliaApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Emalia/Emalia.node.js"
+      "dist/nodes/Emalia/Emalia.node.js",
+      "dist/nodes/Emalia/EmaliaTrigger.node.js"
     ]
   },
   "devDependencies": {
